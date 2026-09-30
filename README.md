@@ -2,6 +2,8 @@
 
 A Claude-primary agent for software engineering tasks. **Claude is the single reasoning brain**. Claude can optionally consult advisor models (OpenAI GPT, Google Gemini) for second opinions, but Claude always makes the final decisions.
 
+Part of [One Last Commit](https://github.com/onelastcommit): small ideas, taken further than strictly necessary.
+
 Think of it as: **"gh CLI, but Claude-powered"**
 
 ## Key Concept: Claude as Primary Agent
@@ -42,7 +44,8 @@ Think of it as: **"gh CLI, but Claude-powered"**
 ### Local Install (npm link)
 
 ```bash
-cd tools/llm-orchestrator
+git clone https://github.com/onelastcommit/friday.git
+cd friday
 yarn install
 yarn build
 npm link
